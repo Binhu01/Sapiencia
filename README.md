@@ -13,7 +13,9 @@
 
 ## ✨ Sobre o Projeto
 
-O **Sapiência** é uma plataforma web desenvolvida para estudantes que desejam aperfeiçoar suas habilidades de redação dissertativo-argumentativa para o ENEM. O projeto combina **repertórios socioculturais curados**, **modelos didáticos** e **autoavaliação por competências** em uma interface moderna, responsiva e acessível.
+O **Sapiência** é uma plataforma web desenvolvida como projeto de **Metodologia Científica** do **Instituto Federal de Alagoas (IFAL)**, em parceria com aluno do **Centro Universitário Mário Pontes Jucá (UMJ)**. O objetivo é oferecer uma ferramenta gratuita de auxílio e treino para a redação dissertativo-argumentativa do ENEM.
+
+O projeto combina **repertórios socioculturais curados**, **modelos didáticos** e **autoavaliação por competências** em uma interface moderna, responsiva e acessível.
 
 > *"Escrever bem é aprender a pensar."*
 
@@ -189,9 +191,16 @@ Este projeto é desenvolvido para **fins educacionais** e não possui vínculo o
 
 ---
 
+## 🏛️ Instituições
+
+| Instituição | Papel |
+|-------------|-------|
+| **IFAL** — Instituto Federal de Alagoas | Metodologia Científica |
+| **UMJ** — Centro Universitário Mário Pontes Jucá | Desenvolvimento e pesquisa |
+
 ## 👨‍💻 Autor
 
-Desenvolvido por **Glauber** com assistência de [Claude](https://claude.ai).
+Desenvolvido por **Glauber**, aluno do Centro Universitário Mário Pontes Jucá (UMJ), como projeto de Metodologia Científica do Instituto Federal de Alagoas (IFAL), com assistência de [Claude](https://claude.ai).
 
 ---
 
