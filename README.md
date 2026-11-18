@@ -82,80 +82,6 @@ O projeto combina **repertórios socioculturais curados**, **modelos didáticos*
 
 ---
 
-## 🏗️ Estrutura do Projeto
-
-```
-sapiencia/
-├── public/
-│   ├── favicon.svg
-│   ├── icon-192.png          # Ícone PWA 192x192
-│   ├── icon-512.png          # Ícone PWA 512x512
-│   ├── logo-sapiencia.png
-│   ├── manifest.json         # PWA manifest
-│   └── robots.txt            # SEO crawlers
-├── src/
-│   ├── components/
-│   │   ├── layout/           # Header, Footer, Navigation
-│   │   └── ui/               # SilkShaderBackground, Skeleton, SplashScreen
-│   ├── data/
-│   │   ├── modelos.ts        # Modelos de redação e esqueletos
-│   │   ├── repertorios.ts    # 40 repertórios socioculturais
-│   │   └── temas.ts          # Eixos temáticos
-│   ├── hooks/
-│   │   ├── useAutoEvaluation.ts
-│   │   └── useTimer.ts       # Timer persistente com sessionStorage
-│   ├── pages/
-│   │   ├── Historico.tsx     # Histórico com busca/filtros/export
-│   │   ├── Inicio.tsx        # Home com repertório do dia
-│   │   ├── Modelos.tsx       # Modelos de redação
-│   │   ├── Repertorio.tsx    # Catálogo de repertórios
-│   │   └── Treino.tsx        # Treino com timer e autoavaliação
-│   ├── services/
-│   │   └── storage.ts        # localStorage wrapper + export/import
-│   ├── styles/
-│   │   └── globals.css       # Variáveis CSS + animações
-│   ├── App.tsx               # Router + SplashScreen + transições
-│   └── main.tsx              # Entry point
-├── index.html                # Meta tags OG/Twitter + PWA links
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-└── vite.config.ts
-```
-
----
-
-## 📦 Como Rodar Localmente
-
-### Pré-requisitos
-- **Node.js** 18+ 
-- **npm** 9+
-
-### Instalação
-
-```bash
-# Clone o repositório
-git clone https://github.com/Binhu01/Sapiencia.git
-
-# Entre na pasta do projeto
-cd Sapiencia
-
-# Instale as dependências
-npm install
-
-# Rode o servidor de desenvolvimento
-npm run dev
-```
-
-O projeto estará disponível em **http://localhost:5173**
-
-### Build para Produção
-
-```bash
-npm run build
-npm run preview   # para visualizar o build localmente
-```
-
 ---
 
 ## 🎨 Paleta de Cores
@@ -200,7 +126,7 @@ Este projeto é desenvolvido para **fins educacionais** e não possui vínculo o
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Glauber**, aluno do Centro Universitário Mário Pontes Jucá (UMJ), como projeto de Metodologia Científica do Instituto Federal de Alagoas (IFAL), com assistência de [Claude](https://claude.ai).
+Desenvolvido por **Glauber**, aluno do Centro Universitário Mário Pontes Jucá (UMJ), como projeto de Metodologia Científica do Instituto Federal de Alagoas (IFAL).
 
 ---
 
