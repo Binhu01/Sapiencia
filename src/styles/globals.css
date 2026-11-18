@@ -182,3 +182,13 @@ h1, h2, h3, h4 {
     opacity: 1;
   }
 }
+
+/* Hide scrollbar for horizontal tab scroll on mobile */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

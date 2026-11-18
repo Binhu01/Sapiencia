@@ -27,6 +27,7 @@ export interface TrainingRecord {
     purpose: boolean
     detail: boolean
   }
+  correctionMode?: 'realtime' | 'final'
 }
 
 function isLocalStorageAvailable(): boolean {
